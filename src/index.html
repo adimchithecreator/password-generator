@@ -4,29 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9a3976d2f0.js" crossorigin="anonymous"></script>
 </head>
 <body class="">
  
 <div class="grid md:grid-cols-2">
+  <div class=" md:hidden">
+
+    <img src="illustration.webp" class="w-full " alt="">
+      </div>
  
   <div class="bg-[#FF85D2]  "> 
     <div class="panel text-center px-20 py-32">
     <h1 class=" text-2xl">Password Generator</h1>
     <form class="mt-10 " > 
-      <input type="text" class=" rounded-md w-full px-3 py-2" id="password" placeholder="create password" readonly>
-      <span class=" text-right text-xs">Do not share your password with anyone</span>
+      <input type="text" class=" rounded-md w-full px-3 py-2" id="password" placeholder="Create password" readonly>
+      <aside class=" leading-3">
+     <span class=" text-xs text-gray-600">Do not share your password with anyone</span>
+      </aside>
       <section class=" mt-12 text-white">
-      <button class=" px-5 py-2 bg-[#78C7C5] " id="generate">Generate</button>
-      <button class=" px-5 py-2 bg-black" id="copytext"> Copy</button>
+      <button class=" lg:px-12 px-5 py-2 bg-[#78C7C5]  hover:text-[#78C7C5] hover:bg-white " id="generate">Generate</button>
+      <button class=" lg:px-12 px-5 py-2 bg-black  border-black hover:bg-white hover:text-black " id="copytext"> Copy</button>
     </section>
     </form>
   </div>
+
+<footer class=" text-sm text-center text-white"> coded with love by adimchi 💕</footer>
 </div>
-<div class="">
+<div class=" hidden md:block">
 
   <img src="illustration.webp" class="w-full " alt="">
     </div>
 </div>
+
 
 <script src="app.js"></script>
 </body>
