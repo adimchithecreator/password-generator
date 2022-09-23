@@ -690,6 +690,11 @@ video {
   background-color: rgb(120 199 197 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#FF85D2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 133 210 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\)\] {
   background-image: url();
 }
@@ -783,9 +788,18 @@ video {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .text-white {
