@@ -22,4 +22,4 @@ function copy(e) {
     document.execCommand('copy')
 }
 generate.addEventListener('click', generatePass)
-copyButton.addEventListener('click', copy)
+1
