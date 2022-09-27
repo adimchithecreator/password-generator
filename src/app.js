@@ -23,4 +23,3 @@ function copy(e) {
 }
 generate.addEventListener('click', generatePass)
 copyButton.addEventListener('click', copy)
-1
